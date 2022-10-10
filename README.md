@@ -9,6 +9,6 @@ From there, differing estimates on hour much within one heating hours, a given h
 
 BTUs were then converted into the given heater's energy unit (gallons of propane vs kwH) and an average price estimate was assigned. From there simple calculations were used to estimate the cost of each heater option for a given year.
 
-In this model, it is estimated that a heat pump will prove less expensive because it is so efficient. However that is quite depenent on the price of electricity which may increase in the winter. 
+In this model, it is estimated that a heat pump will prove less expensive over time because it is so efficient. However that is quite depenent on the price of electricity which may increase in the winter and will require a high upfront investment. 
 
 Overall I think this model is a good foundation for future analysis and can be easily retofitted and advanced for other needs.
