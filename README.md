@@ -1,9 +1,9 @@
 # Propane_vs_heatpump_model
-In Ennis MT, my family has a large pole barn style shop. My dad is considering adding heat to the shop in order to keep it a constant 50 degrees. This project is supposed tohelp analyze the different appraoches in achieving this, by either adding a propane heat source or something else entirely (maybe a heat pump?!)
+In Ennis MT, my family has a large pole barn style shop. My dad is considering adding heat to the shop in order to keep it a constant 50 degrees. This project is supposed to help analyze the different appraoches in achieving this, by either adding a propane heat source or something else entirely (maybe a heat pump?!)
 
 The first jupyter notebook file is a model that estimates the heat cost comparison between a conventional propane ceiling heater and a heat pump. This model takes a "heating hours" approach where it is assumed that the amount that either a furnace or heatpump will run is depenednet on the amount of time the outside weather is colder than 50 degrees. 
 
-Consequently, the first chunk of the model is spent estimating the # of 'heating hours' that will be needed. For this model, the Ennis MT temp data from 2016 was used.
+Consequently, the first chunk of the model is spent estimating the # of 'heating hours' that will be needed. For this model, the Ennis MT temp data from 2016 was used and was pulled using SQL from BigQuery.
 
 From there, differing estimates on hour much within one heating hours, a given heater will be on was used to calculate the number of BTU's a given heater would have to use. 
 
